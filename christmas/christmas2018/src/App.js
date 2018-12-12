@@ -16,7 +16,30 @@ class App extends Component {
             Match cards to win
           </h3>
         </header>
-        <MemoryCard/>
+        <div>
+          <MemoryCard/>
+          <MemoryCard/>
+          <MemoryCard/>
+          <MemoryCard/>
+        </div>
+        <div>
+          <MemoryCard/>
+          <MemoryCard/>
+          <MemoryCard/>
+          <MemoryCard/>
+        </div>
+        <div>
+          <MemoryCard/>
+          <MemoryCard/>
+          <MemoryCard/>
+          <MemoryCard/>
+        </div>
+        <div>
+          <MemoryCard/>
+          <MemoryCard/>
+          <MemoryCard/>
+          <MemoryCard/>
+        </div>
       </div>
     );
   }
