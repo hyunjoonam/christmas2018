@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import MemoryCard from './MemoryCard.js';
+import MemoryCardBack from './MemoryCardBack.js';
 
 class App extends Component {
   render() {
@@ -17,28 +17,28 @@ class App extends Component {
           </h3>
         </header>
         <div>
-          <MemoryCard/>
-          <MemoryCard/>
-          <MemoryCard/>
-          <MemoryCard/>
+          <MemoryCardBack/>
+          <MemoryCardBack/>
+          <MemoryCardBack/>
+          <MemoryCardBack/>
         </div>
         <div>
-          <MemoryCard/>
-          <MemoryCard/>
-          <MemoryCard/>
-          <MemoryCard/>
+          <MemoryCardBack/>
+          <MemoryCardBack/>
+          <MemoryCardBack/>
+          <MemoryCardBack/>
         </div>
         <div>
-          <MemoryCard/>
-          <MemoryCard/>
-          <MemoryCard/>
-          <MemoryCard/>
+          <MemoryCardBack/>
+          <MemoryCardBack/>
+          <MemoryCardBack/>
+          <MemoryCardBack/>
         </div>
         <div>
-          <MemoryCard/>
-          <MemoryCard/>
-          <MemoryCard/>
-          <MemoryCard/>
+          <MemoryCardBack/>
+          <MemoryCardBack/>
+          <MemoryCardBack/>
+          <MemoryCardBack/>
         </div>
       </div>
     );
