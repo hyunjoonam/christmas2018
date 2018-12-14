@@ -4,9 +4,16 @@ import './MemoryCard.css';
 
 
 class MemoryCard extends Component {
+    constructor() { 
+        super();
+        this.state = {
+            isFlipped=false
+        }
+    };
     clickHandler() {
-        alert("Card Clicked");
+        this.setState({isFlipped:true});
     }  
+
     render() {
         return(
             <div className="MemoryCard" onClick={this.clickHandler}>
